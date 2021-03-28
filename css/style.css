@@ -584,6 +584,10 @@ section div img {
     font-size: 26px;
     line-height: 65px;
   }
+  .content h2 {
+    margin-top: 96px;
+    font-size: 21px;
+}
 }
 @media (max-width: 768px){
   .column-according {
