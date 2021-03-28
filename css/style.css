@@ -9,10 +9,9 @@ html, body {
 /* картинка на странице */
 .minimized {
   cursor: pointer;
-  border: 1px solid #FFF;
 }
 .minimized:hover {
-  border: 1px solid yellow;
+  box-shadow: 0 0 5px grey;
 }
 /* увеличенная картинка */
 #magnify {
@@ -280,8 +279,8 @@ h1{
   outline: none;
   transition: 0.4s;
 }
-.active, .accordion:hover {
-  background-color: #23282d;
+.accordion:hover{
+  background-color: #353535;
 }
 .panel {
   padding: 18px 18px;
@@ -477,7 +476,8 @@ section div img {
     height: 70px;
   }
   .header__logo img {
-    max-width: 70%;
+    width: 23%;
+    height: 100%;
   }
   .header:before{
     height: 70px;
@@ -492,14 +492,24 @@ section div img {
     height: 50px;
   }
   .header__logo {
-    margin-left: 287px;
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    right: 0;
+    z-index: 9;
+    margin: 0 auto;
   }
   .header__burger {
     display: block;
-    position: relative;
+    position: absolute;
     width: 30px;
     height: 20px;
-    z-index: 3;
+    margin-right: 15px;
+    right: 0;
+    z-index: 50000;
   }
   .header__burger span {
     background-color: #fff;
@@ -677,9 +687,6 @@ section div img {
 }
 }
 @media (max-width: 425px){
-.header__logo {
-  margin-left: 137px;
-}
 .b-33 {
   width: 79%;
 }
@@ -718,12 +725,6 @@ section div {
 .b-33 {
     width: 82%;
 }
-.header__logo img {
-  margin: 0;
-}
-.header__logo {
-  margin-left: 137px;
-}
 .centered {
   font-size: 13px !important;
 }
@@ -739,9 +740,6 @@ section div {
 }
 }
 @media (max-width: 320px){
-  .header__logo {
-    margin-left: 110px;
-  }
 .accordion {
   width: 305px;
 }

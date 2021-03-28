@@ -26,13 +26,16 @@
         <nav class="header__menu">
           <ul class="header__list">
             <li>
+              <a href="#wrapper" class="header__link">ГОЛОВНА</a>
+            </li>
+            <li>
+              <a href="#content" class="header__link">ПРО НАС</a>
+            </li>
+            <li>
               <a href="#poslugi" class="header__link">ПОСЛУГИ</a>
             </li>
             <li>
               <a href="#portfolio" class="header__link">ПОРТФОЛІО</a>
-            </li>
-            <li>
-              <a href="#content" class="header__link">ПРО НАС</a>
             </li>
             <li>
               <a href="#content-footer" class="header__link">КОНТАКТИ</a>
@@ -84,41 +87,49 @@
       </div>
     </div>
   </nav> -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./img/unnamed.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./img/002.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./img/002.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./img/002.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./img/002.png" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
     <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/01.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/02.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/03.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/04.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/05.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<div class="content" id="content">
+  <h1>ПРО НАС</h1>
+  <div class="line"></div>
+  <p>Приватне підприємство "Реклама-центр" засноване в 1996 році. 
+    Виробничі площі - більше 2000 кв.м.
+    Підприємство проектує, погоджує, виготовляє та встановлює на замовлення якісну рекламну продукцію: вивіски, таблиці, банери, конструкції, вироби з металу, нержавійки, пластику, брендування транспорту.
+    ПП „Реклама-центр” запропонує Вам як простий економний варіант зовнішньої реклами, так і вироби середньої складності чи ексклюзивні престижні вироби, що завжди відповідатимуть оптимальному співвідношенню „ціна-якість”.</p>
+</div>
 <div class="content" id="poslugi">
   <h1>ПОСЛУГИ</h1>
   <div class="line"></div>
@@ -379,14 +390,6 @@
   <div class="centered">ПРОДАЖ МАТЕРІАЛІВ</div>
 </a>
 </div>
-</div>
-<div class="content" id="content">
-  <h1>ПРО НАС</h1>
-  <div class="line"></div>
-  <p>Приватне підприємство "Реклама-центр" засноване в 1996 році. 
-    Виробничі площі - більше 2000 кв.м.
-    Підприємство проектує, погоджує, виготовляє та встановлює на замовлення якісну рекламну продукцію: вивіски, таблиці, банери, конструкції, вироби з металу, нержавійки, пластику, брендування транспорту.
-    ПП „Реклама-центр” запропонує Вам як простий економний варіант зовнішньої реклами, так і вироби середньої складності чи ексклюзивні престижні вироби, що завжди відповідатимуть оптимальному співвідношенню „ціна-якість”.</p>
 </div>
 </div>
 <div class="content" id="portfolio">
